@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 📌 Summit Global Teknologi – Frontend Dashboard Technical Test
 
-## Getting Started
+Proyek ini merupakan hasil pengerjaan technical test untuk posisi **Junior Frontend Dashboard Developer** di PT Summit Global Teknologi. Aplikasi ini dibangun menggunakan **Next.js 14** dan **Ant Design**, dengan tujuan untuk menampilkan serta melakukan pengelolaan data produk melalui API yang telah disediakan.
 
-First, run the development server:
+---
 
-```bash
+### 🚀 Teknologi yang Digunakan
+
+- **Next.js 14 (App Router)**
+- **React**
+- **TypeScript**
+- **Ant Design**
+- Axios
+- TailwindCSS
+
+---
+
+### ✅ Fitur Utama
+
+| Fitur                                                   | Status |
+| ------------------------------------------------------- | ------ |
+| Menampilkan daftar produk (pagination + search)         | ✅     |
+| Menambahkan produk baru (POST)                          | ✅     |
+| Edit produk (PUT)                                       | ✅     |
+| Menampilkan detail produk di modal (GET single product) | ✅     |
+
+### 🧩 Persyaratan Sistem
+
+Pastikan sistem telah memenuhi kebutuhan berikut:
+
+| Software | Versi                         |
+| -------- | ----------------------------- |
+| Node.js  | **v18 atau v20** (disarankan) |
+| npm      | v9+                           |
+
+---
+
+### 📦 Instalasi & Menjalankan Project
+
+#### 1️⃣ Clone repository
+
+\`\`\`bash
+git clone https://github.com/rizkyyusril00/sgt-frontend-test.git
+cd sgt-frontend-test
+\`\`\`
+
+#### 2️⃣ Install dependencies
+
+\`\`\`bash
+npm install
+\`\`\`
+
+#### 3️⃣ Buat file `.env.local` di root project
+
+\`\`\`
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8001
+\`\`\`
+
+#### 4️⃣ Jalankan backend (disediakan oleh perusahaan)
+
+Backend harus berjalan terlebih dahulu:
+
+\`\`\`bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Backend akan berjalan di:
+\`\`\`
+http://localhost:8001
+\`\`\`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 5️⃣ Jalankan frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`bash
+npm run dev
+\`\`\`
 
-## Learn More
+Aplikasi dapat diakses melalui:
+\`\`\`
+http://localhost:3000
+\`\`\`
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📂 Struktur Folder Utama
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+\`\`\`
+src/
+|─ app/
+├─ api/ (Proxy ke backend)
+└─ products/ (Dashboard)
+\`\`\`
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👨‍💻 Pengembang
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Muhammad Rizky Yusril Arasyhi**  
+GitHub: https://github.com/rizkyyusril00
+
+---
+
+Jika diperlukan, saya siap menjelaskan proses pengerjaan secara lebih detail.  
+Terima kasih untuk kesempatan yang diberikan 🙏
